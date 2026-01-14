@@ -1,0 +1,8 @@
+I am playing Arc Raiders, and often it is really difficult to keep track of my inventory. I would like to create an AI voice agent that can sit in my discord call and listen to me read out my current inventory, and then update a database of just pairs between my items and the counts. 
+I should be able to tell the agent "for this next mission, I am trying to do x, and I need x y z resources." 
+Mid game I can ask "how many resources of x do I have again, how much do I need" "Where can I find it?"
+Most of this can be done by just storing an extended context window, and then having an LLM extract key info.
+Once new info is added, we will prompt the agent to prioritize newer (later) text as that is most likely 
+more accurate. I think the biggest challenge will be figuring out how to get this as a discord bot that can 
+join my call. Please try your best to come up with a solution for this and write out a step by step guide if 
+there is anything i need to do on my end.

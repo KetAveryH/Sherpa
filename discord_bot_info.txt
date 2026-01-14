@@ -1,0 +1,2 @@
+ source venv312/bin/activate
+  python -m src.bot

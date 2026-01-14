@@ -1,0 +1,28 @@
+Sherpa - Discord Voice Inventory Assistant for Arc Raiders
+
+Sherpa is a Discord voice bot that helps track in-game inventory for Arc Raiders. It joins your voice channel, listens to your speech in real-time, and responds both via voice and text.
+
+Core Features:
+- Voice-controlled inventory management ("I picked up 15 titanium")
+- Query inventory mid-game ("how much titanium do I have?")
+- Learn and recall item locations and tips
+- Track mission goals and resource requirements
+
+Tech Stack:
+- py-cord for Discord bot functionality
+- Deepgram (Nova-2) for real-time streaming speech-to-text
+- OpenAI TTS for voice responses
+- Claude API for natural language understanding
+- JSON file storage for inventory and knowledge
+
+Requirements:
+- Python 3.12 (recommended)
+- Discord bot token
+- API keys: Anthropic, Deepgram, OpenAI
+
+Commands:
+- !join - Join your voice channel and start listening
+- !leave - Leave voice channel
+- !inventory - Display current inventory in chat
+
+Voice responses for quick answers, Discord text channel for all responses.
